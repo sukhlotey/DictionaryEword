@@ -57,7 +57,9 @@ const Header = () => {
           <h3 className="text-gray-50 text-center mt-4">
             Result for:{" "}
             <span className="text-white font-bold">{inputValue}</span>
-            <button onClick={handleSpeechWordBtn}><i className="fa-solid fa-microphone" style={{color:"#000",padding:"7px",marginLeft:"5px",backgroundColor:"#FFF",borderRadius:"50%",cursor:"pointer"}}></i></button>
+            <button onClick={handleSpeechWordBtn}>
+              <i className="fa-solid fa-volume-low bg-blue-400" style={{padding:"7px",marginLeft:"5px",borderRadius:"50%",cursor:"pointer"}}></i>
+              </button>
           </h3>
         )}
       </div>
